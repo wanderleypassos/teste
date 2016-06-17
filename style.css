@@ -9,6 +9,28 @@
 	text-align: center;
 }
 
-.container {
+.header {
+	height: 55px;
+	background-image: -webkit-linear-gradient(top,#282828,#444444);
+	border-bottom: 1px solid #222;
+	box-shadow: 0 0.2px 8px #262626;
+	padding: 10px 20px;
+}
+
+.header .title-top {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: #dedede;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.imgtop {
+	width: 35px;
+	margin: 0 5px 8px 8px;
+	display: inline-block;
+}
+
+.container-fluid {
 	background-color: #dedede;
 }
