@@ -1,0 +1,14 @@
+* {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.titulo {
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.container {
+	background-color: #dedede;
+}
