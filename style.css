@@ -10,11 +10,12 @@
 }
 
 .header {
-	height: 55px;
+	height: 75px;
 	background-image: -webkit-linear-gradient(top,#282828,#444444);
 	border-bottom: 1px solid #222;
 	box-shadow: 0 0.2px 8px #262626;
-	padding: 10px 20px;
+	padding: 20px 20px;
+	display: block;
 }
 
 .header .title-top {
@@ -22,6 +23,7 @@
 	font-size: 25px;
 	color: #dedede;
 	font-weight: 300;
+	margin-right: 30px;
 	display: inline-block;
 }
 
@@ -34,3 +36,23 @@
 .container-fluid {
 	background-color: #dedede;
 }
+
+.menu-name {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #dedede;
+	margin: 0 10px;
+	letter-spacing: 1px;
+	
+}
+
+.menu-name:hover {
+	color: #F36D5D;
+	text-decoration: none;
+	border-bottom: 1px #F36D5D;
+	transition: color 0.3s;
+}
+
